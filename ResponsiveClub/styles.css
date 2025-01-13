@@ -1,0 +1,145 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: lightsalmon;
+}
+
+/* Nav */
+
+nav {
+    padding-top: 1rem;
+    background-color: teal;
+    color: lightsalmon;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    color: lightsalmon;
+    display: inline-block;
+    margin-right: 1.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Club Name */
+
+.club-name-container {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/responsive-club-site/img/runner-splash.jpg");
+    background-position: center;
+    background-repeat: none;
+}
+
+.club-name-container img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.club-name-container h1 {
+    color: coral;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+}
+
+/* Rest */
+
+.description-container,
+.image-container,
+.quote-container,
+.come-join-container {
+    margin: 4em auto;
+}
+
+
+.description-container {
+    padding: 0 1rem;
+}
+
+.description-container h2 {
+    color: yellow;
+}
+
+.description-container p {
+    color: white;
+}
+
+ /* Image Rows */
+
+ .image-container img {
+    width: 30%;
+    margin: 1.5%;
+ }
+
+/* Quote */
+
+.quote-container {
+    background-color: teal;
+    height: 20rem;
+    padding: 1rem 1rem 0 1rem;
+    color: yellow;
+}
+
+/* Come Join! */
+
+.come-join-container {
+    margin-bottom: 2rem;
+    color: yellow;
+    text-align: center;
+}
+
+.come-join-container img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1048px) {
+    .image-container img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .description-container h1 {
+      margin-top: 2rem;
+    }
+  
+    .description-container {
+      max-height: 200px;
+    }
+  
+    .image-container img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 320px) {
+    .quote-container h1 {
+        font-size: 2rem;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+}
+
