@@ -1,0 +1,65 @@
+body {
+    font-family: "Open Sans";
+    margin: 0px 250px;
+}
+
+header {
+    z-index: 100;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+} 
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+}
+  
+header .logo {
+    flex: 1;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    font-family: "Roboto Mono", sans-serif;
+}
+  
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.about-me p {
+    margin-right: 10rem;
+}
+
+.about-me img {
+    width: 100px;
+    height: auto;
+}
+
+#basketball {
+    display: none;
+}
+
+#baseball {
+    display: none;
+}
+
+#football {
+    display: none;
+}
