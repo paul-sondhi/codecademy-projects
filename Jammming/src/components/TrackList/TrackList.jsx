@@ -15,7 +15,7 @@ const TrackList = (props) => {
                     onRemove={props.onRemove}
                     />
                 );
-            })},
+            })}
         </div>
     );
 };
